@@ -1,0 +1,312 @@
+.contentContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 6px solid #fbbe28;
+}
+
+.logo-image {
+    width: 7%;
+}
+
+.ecart-perso {
+    width: 48%;
+}
+
+.colorNash {
+    background-color: #5c250c;
+    color: #fbbe28;
+
+}
+
+.colorNash:hover {
+    color: #e5e2d3;
+}
+
+.colorNash2 {
+    background-color: #5c250c;
+    color: #fbbe28;
+
+}
+
+.colorNashBtn {
+    background-color: #fbbe28;
+    border: 1px solid #5c250c;
+    color: #5c250c;
+
+}
+
+.colorNashBtn:hover {
+    background-color: #e5e2d3;
+    border: 1px solid #0b0b0b;
+    color: #000000;
+
+}
+
+.colorNashForm-control {
+    background-color: #ffd771;
+    border-color: #fbbe28;
+}
+
+.bdr-botom-nash {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #fbbe28;
+}
+
+
+#themeSwitch {
+    background-color: #BF9A3C;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+#themeSwitch:hover {
+    background-color: #BDA672;
+}
+
+#themeSwitch i:last-child {
+    display: none;
+}
+
+.darkmode #themeSwitch i:first-child {
+    display: none;
+}
+
+.darkmode #themeSwitch i:last-child {
+    display: block;
+}
+
+.darkmode #messageErreur p {
+    color: red;
+    padding: 1em;
+}
+
+
+
+/* Force le footer à rester en bas de la page même si le contenu est petit */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    flex: 1;
+}
+
+/* Ajouter un peu d'espace entre le contenu et le footer */
+footer {
+    margin-top: auto;
+    border-top: 6px solid #fbbe28;
+}
+
+
+
+
+
+
+.boite1-accueil {
+    background-image: url(../public/images/home_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 864px;
+    width: 100%;
+}
+
+/* .back-evenement-container h1 {} */
+
+.titre-perso {
+    color: #fbbe28;
+    padding-top: 1em;
+    font-size: 96px;
+    text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.back-concert {
+    background-image: url(../public/images/concert-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    background-position: center;
+    border-bottom: #fbbe28 3px solid;
+}
+
+.back-spec {
+    background-image: url(../public/images/spectacle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    background-position: center;
+    border-bottom: #fbbe28 3px solid;
+}
+
+.back-atelier {
+    background-image: url(../public/images/atelier.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    background-position: center;
+    border-bottom: #fbbe28 3px solid;
+}
+
+.evenement-colors {
+    background-color: #85330f;
+
+}
+
+.card-colors-perso {
+    background-color: #fbbe28;
+    border: #5c250c solid 3px;
+}
+
+.card-img-color-perso {
+    border: 3px #fbbe28 solid;
+    border-radius: 7px;
+}
+
+.card-colors-perso p,
+.card-colors-perso h5 {
+    color: #85330f;
+}
+
+.my-5-perso {
+    padding-bottom: 3rem !important;
+    margin-bottom: 0 !important;
+}
+
+.btn-perso {
+    background-color: #ee6d0a;
+    border: #85330f 1px solid;
+}
+
+.btn-perso:hover {
+    background-color: #ffd771;
+    border: #e5e2d3 1px solid;
+
+}
+
+
+
+.section2-accueil {
+    background-color: #85330f;
+    width: 100%;
+    height: 864px;
+}
+
+.boite-img-sec2 {
+    background-image: url(images/Fond-page-accueil-section-2v2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 849px;
+}
+
+.boite-img-sec2 h1 {
+    color: #fbbe28;
+    display: flex;
+    padding-top: 1.5em;
+    padding-left: 2em;
+    font-size: 4em;
+}
+
+.img-boite-jaune {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding-top: 2em;
+
+}
+
+.img-boite-jaune img {
+    width: 22%;
+    border: 2px solid #5c250c;
+}
+
+.titre-boite-jaune {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 13em;
+    padding-top: 4em;
+
+}
+
+.titre-boite-jaune h5 {
+    color: #85330f;
+    font-size: 3em;
+}
+
+
+.btn-boite-jaune {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 12em;
+    padding-top: 3em;
+}
+
+
+
+.img-accueil-fin {
+    background-image: url(images/img-accueil-fin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-position: center;
+}
+
+.logo-fin {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 14%;
+    padding-top: 4.5em;
+}
+
+
+
+/* Limite de sticky : s'arrête avant les commentaires */
+.evenement-details .sticky-container {
+    margin-bottom: 60px !important;
+    /* Ajustez selon la hauteur de la section */
+}
+
+/* Sticky behavior */
+.sticky-container {
+    position: relative;
+}
+
+.sticky-content {
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+}
+
+/* Espace sous le bouton retour */
+.sticky-content .text-center {
+    margin-bottom: 20px;
+}
+
+
+.h3-perso {
+    color: #fbbe28 !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6) !important;
+}
